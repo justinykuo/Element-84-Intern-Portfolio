@@ -1,0 +1,111 @@
+
+
+    *{
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+           font-style: italic;
+           font-weight: lighter;
+        }
+        
+        body{
+            background-image:url("../img/seigaiha.png");
+        }
+        
+        .header{
+           text-align: center;
+           padding: 15px;
+        }
+        
+        .bio, .codeExamples{
+           text-align: left;
+           float:left;
+           padding: 15px;
+        }
+        
+        .bio{
+           width: 25%;
+           float: left;
+        }
+        
+        .eduList{
+            
+            font-weight: 200;
+            
+        }
+        
+        .codeExamples{
+            width: 75%;
+        }
+
+        .codeSnippet{
+            width: 45%;
+            height: 200px;
+            margin: 10px;
+            border: 2px solid black;
+            position: relative;
+    
+        }
+
+        #block .text{
+          background-repeat: no-repeat;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+        }
+
+
+        .text{
+            background-color:white;
+            max-height: 100%;
+        }
+        
+       
+        .textEditor{
+            
+            background-image: url(../img/textEditExample.png);
+            max-width:100%;
+            max-height:100%;
+
+        }
+
+        .stackAndQueues{
+            
+            background-image: url(../img/stackExample.png);
+            max-width:100%;
+            max-height:100%;
+
+        }
+
+
+        .junittesting{
+            
+            background-image: url(../img/junittesting.png);
+            max-width:100%;
+            max-height:100%;
+
+        }
+
+        .portfolioWebsite{
+            
+            background-image: url(../img/portfolioExample.png);
+            max-width:100%;
+            max-height:100%;
+
+        }
+
+
+
+        #wrapper .text {
+            position:relative;
+            left:0px;
+            visibility:hidden;
+            height: 100%;
+        }
+
+        #wrapper:hover .text {
+            visibility:visible;
+        }
+
+        
