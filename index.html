@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <title>Element 84 Intern Portfolio</title>
+    <meta charset = "UTF-8" />
+    
+    <!-- Resonsive webpage -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font used -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300i" rel="stylesheet">
+    
+    <!-- hover.css -->
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    
+    <!-- jquery libraries -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+    <!-- images -->
+    
+    
+    <script>
+        $( function() {
+            $( "#bio" ).accordion({
+            collapsible: true,
+            active: false
+         });
+  } );
+        
+    </script>
+</head>
+    
+<body>
+    
+    <!-- header -->
+    <div id = header; class = "header">
+        <h2>Justin Kuo's Portfolio</h2>
+    </div>
+    
+    <!-- information -->
+    <div class = "bio"; id = bio>
+    <h2 class = "hvr-forward">Education (+)</h2>
+  <div id = eduList; class = "eduList">
+    
+    <p>University of Maryland Baltimore County - Computer Science (Graduation 2018)</p>
+    <p>Montgomery College - Graduated with A.A. in Computer Science (3.1 GPA)</p>
+  </div>
+  <h2 class = "hvr-forward">Relevant Skills (+)</h2>
+  <div>
+    <p>Java/JavaScript</p>
+    <p>C/C++</p>
+    <p>PHP/MySQL</p>
+    <p>HTML/CSS</p>
+  </div>
+  <h2 class = "hvr-forward">Contact Info (+)</h2>
+  <div>
+      <p>Email: JustinYKuo@gmail.com</p>
+      <p>Phone Number: (505)-600-9593</p>
+      <p><a href= https://github.com/justinykuo>GitHub: @JustinYKuo</a></p>
+    
+  </div>
+</div>
+    
+    <!-- code snippet section -->
+    <div id = codeExamples; class = "codeExamples">
+        
+        <h3 style = "text-align: center">Code Snippets</h3>
+        
+        <div class = "codeSnippet textEditor hvr-grow"; id = "wrapper"; >
+            <div id = "block"></div>
+            <div class = "text">Simple Text Editor. Created for an aging family member to easily create journal entries. Features file saving, file opening, and file writing. Also features a straightforward GUI. The main attribute of this program is that when the program is exited (even without saving), the file is saved. Upon reopening, the same file for that day is opened again; like a journal. Written in Java (and javafx)<br><br><a href = https://github.com/justinykuo/text-editor-example>Click to see the code on github.</a></div>
+            
+        
+        </div>
+        
+        <div class = "codeSnippet stackAndQueues hvr-grow"; id = "wrapper">
+            <div id = "block"></div>
+            <div class = "text">An implementation of stacks and queues, and represented in a GUI. True to norm, the stacks are represented as a last in first out structure (LIFO) and the queue is represented as a first in first out structure (FIFO). The stacks and queues are generic and dynamically created via array lists. This project is written in java (and javafx). <br><br><a href = https://github.com/justinykuo/stack-and-queue-example>Click to see the code on github.</a></div>
+        
+        </div>
+        
+        <div class = "codeSnippet junittesting hvr-grow"; id = "wrapper">
+            <div id = "block" style = "z-index: 1"></div>
+            <div class = "text">More often than not, unless I am testing something out, I will create test cases for the code. In this particular case, I am utiliizing java's junit testing functionality to test exception handling. I am also familiar with debugging and troubleshooting issues within code. <br><br><a href = https://github.com/justinykuo/junittesting-example>Click to see the code on github.</a></div>
+        
+        </div>
+        
+        <div class = "codeSnippet portfolioWebsite hvr-grow"; id = "wrapper">
+            <div id = "block"></div>
+            <div class = "text">This website itself was created as an example of my programming abilities. It was created with html, css, javascript, and jquery. Additionally, I am also fluent in MySQL, but was unable to utilize it in this situation. The website was created in approximately one and a half days, although the overall programming section took less time than the stylistic choices.  <br><br><a href = https://github.com/justinykuo/Element-84-Intern-Portfolio>Click to see the code on github.</a></div>
+        
+        
+        </div>
+    
+    
+    </div>
+   
+    
+    
+</body>
